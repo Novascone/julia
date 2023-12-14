@@ -1,4 +1,4 @@
-
+using LinearAlgebra
 # matrix
 A = [ 1 2 3;
       1 2 4;
@@ -31,3 +31,31 @@ y = sum(gen)
 
 print(x)
 println(),println()
+
+# undefined arrays
+
+n = 5 # size
+A1 = Array{Float64}(undef,n,n)
+A2 = Matrix{Float64}(undef,n,n)
+
+V1 = Array{Float64}(undef,n)
+V2 = Vector{Float64}(undef,n)
+
+# empty arrays
+# these can grow dynamically
+vb = Array{Float64}(undef,0)
+# same thing vb = Float64[]
+
+Az = zeros(8,9)
+Bz = zeros(8,9)
+
+println(Az),println()
+println(Bz),println()
+
+C = rand(6,6)
+
+println(C),println()
+
+M = 5I + rand(2,2)
+
+println(M),println()

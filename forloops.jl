@@ -26,7 +26,7 @@ end
 # end
 
 
-# break statement
+# break statement exits loop before it completes all iteratons
 y = 0
 
 for g in 1:100000
@@ -38,7 +38,7 @@ end
 println()
 print(y)
 
-# continue statement
+# continue statement exits current iteration of a for loop and goes to the next one
 numbers = randn(100)
 sum = 0
 for h in numbers

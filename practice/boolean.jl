@@ -52,3 +52,21 @@ x = 12
 
 
 (abs(x - 3) + abs(x - 9)) > 12
+
+0 == -0
+
+0 > -0
+
+Inf == Inf
+
+Inf > 1
+
+Inf > NaN
+
+-Inf == -Inf
+
+-Inf < 1
+
+-Inf < NaN
+
+NaN == NaN

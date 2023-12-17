@@ -1,5 +1,6 @@
 import LinearAlgebra: norm
 import Statistics: mean
+using Primes
 x,y = 1, 2
 
 v = [x, y]
@@ -118,26 +119,4 @@ v = [1, 1, 2, 3, 5, 8, 13, 21]
 length(v)
 sum(v)
 prod(v)
-
-# the first term of an arithmetic sequence is equal to 200 and the common difference is equal to -10 find the value of a20
-# an = a0 + n*h
-
-a0, h, n = 200, -10, 20
-a0 + n * h
-
-# an arithmetic sequence has a common difference equal to 10 and its 6th term is equal to 52. Find its 15th term a15
-a6, h, m, n = 52, 10, 6, 15
-a15 = a6 + (n-m)*h 
-
-# a:h:b start,step,endof
-
-1:10
-
-collect(1:10)
-
-collect(1:7:50)
-
-collect(100:-7:1)
-
-
 

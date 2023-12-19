@@ -215,3 +215,23 @@ spirograph(1, 1/2, 1/4)
 spirograph(1, 1/4, 1)
 
 spirograph(1, 1/8, 1/4)
+
+f(x) = x^3 + 4
+
+plot(f)
+plot!(zero)
+
+f(x) = x^3 + x - 1
+
+plot(f)
+plot!(zero)
+
+f(x) = 5(x - 1)^(1/2) - 2x 
+
+plot(f,xlims=(-4,8), ylims=(-5,5))
+plot!(zero)
+
+f(x) = x^(3) - 3.9x^(2) + 4.79x - 1.881
+
+plot(f)
+plot!(zero)
